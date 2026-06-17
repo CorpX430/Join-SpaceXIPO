@@ -1,0 +1,29 @@
+{
+  "name": "join-spacex-ipo",
+  "version": "1.0.0",
+  "description": "SpaceX IPO 2026 - Fictional landing page demonstration",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python -m http.server 8000",
+    "start": "python -m http.server 8000",
+    "preview": "npx serve",
+    "build": "echo 'This is a static site, no build needed'"
+  },
+  "keywords": [
+    "spacex",
+    "ipo",
+    "landing-page",
+    "tailwind",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "CorpX430",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CorpX430/Join-SpaceXIPO.git"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}
