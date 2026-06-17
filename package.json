@@ -1,22 +1,22 @@
 {
   "name": "join-spacex-ipo",
-  "version": "1.0.0",
-  "description": "SpaceX IPO 2026 - Fictional landing page demonstration",
-  "main": "index.html",
+  "version": "2.0.0",
+  "description": "SpaceX IPO 2026 - Landing page with backend and Telegram bot integration",
+  "main": "server.js",
   "scripts": {
-    "dev": "python -m http.server 8000",
-    "start": "python -m http.server 8000",
-    "preview": "npx serve",
-    "build": "echo 'This is a static site, no build needed'"
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "client": "python -m http.server 8000",
+    "build": "echo 'Static site - no build needed'",
+    "test": "echo 'Tests coming soon'"
   },
   "keywords": [
     "spacex",
     "ipo",
     "landing-page",
-    "tailwind",
-    "html",
-    "css",
-    "javascript"
+    "telegram-bot",
+    "express",
+    "nodejs"
   ],
   "author": "CorpX430",
   "license": "MIT",
@@ -24,6 +24,16 @@
     "type": "git",
     "url": "https://github.com/CorpX430/Join-SpaceXIPO.git"
   },
-  "devDependencies": {},
-  "dependencies": {}
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "node-telegram-bot-api": "^0.62.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
 }
